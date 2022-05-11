@@ -2,8 +2,11 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "eslint": "^8.15.0",
     "husky": "^8.0.1",
-    "lerna": "^5.1.1"
+    "lerna": "^5.1.1",
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "semantic-release": "semantic-release",
