@@ -1,5 +1,5 @@
 export interface ISpecification {
   and(right: ISpecification): ISpecification;
-  or(left: IsSpecification): ISpecification;
+  or(left: ISpecification): ISpecification;
   getConditions(): any;
 }
